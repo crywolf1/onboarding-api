@@ -1,0 +1,16 @@
+{
+  "error": [
+    {
+      "type": "https://datatracker.ietf.org/doc/html/rfc7807#section-3",
+      "title": "SimpleStorage: [company]",
+      "detail": "Not Found [2258ie4t68jv]",
+      "status": "400",
+      "instance": "http://company-atk.herokuapp.com/2258ie4t68jv",
+      "mamund": {
+        "dt": "2022-06-22T18:52:53.019Z",
+        "app": "bigco-company",
+        "server": "EYC-01"
+      }
+    }
+  ]
+}

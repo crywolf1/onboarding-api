@@ -1,0 +1,456 @@
+    { 
+      "account" : 
+      { 
+        "metadata" : 
+        [
+            {
+                "name" : "title"
+                ,"value" : "BigCo Account Records"
+              }
+            ,
+            {
+                "name" : "author"
+                ,"value" : "Mike Amundsen"
+              }
+            ,
+            {
+                "name" : "release"
+                ,"value" : "1.0.0"
+              }
+          ],
+          "links" : 
+          [
+              {
+                  "id" : "self"
+                  ,"name" : "self"
+                  ,"href" : "http://account-atk.herokuapp.com/list"
+                  ,"rel" : "self colllection account"
+                  ,"tags" : "collection account self home list item"
+                  ,"title" : "Self"
+              }
+              ,
+              {
+                  "id" : "home"
+                  ,"name" : "home"
+                  ,"href" : "http://account-atk.herokuapp.com/"
+                  ,"rel" : "collection account"
+                  ,"tags" : "collection account home list item"
+                  ,"title" : "Home"
+              }
+              ,
+              {
+                  "id" : "list"
+                  ,"name" : "list"
+                  ,"href" : "http://account-atk.herokuapp.com/list/"
+                  ,"rel" : "collection account"
+                  ,"tags" : "collection account home list item"
+                  ,"title" : "List"
+              }
+              ,
+              {
+                  "id" : "filter"
+                  ,"name" : "filter"
+                  ,"href" : "http://account-atk.herokuapp.com/filter/"
+                  ,"rel" : "collection account filter"
+                  ,"tags" : "collection account filter list item"
+                  ,"title" : "Search"
+              }
+              ,
+              {
+                  "id" : "createAccount"
+                  ,"name" : "create"
+                  ,"href" : "http://account-atk.herokuapp.com/"
+                  ,"rel" : "create-form account"
+                  ,"tags" : "collection account list"
+                  ,"title" : "Create Account"
+              }
+          ],
+          "items" : 
+          [
+              {
+                "links" : 
+                [
+                    {
+                        "id" : "read_12345"
+                        ,"name" : "read"
+                        ,"href" : "http://account-atk.herokuapp.com/12345"
+                        ,"rel" : "item account read"
+                        ,"title" : "Read"
+                    }
+                    ,
+                    {
+                        "id" : "update_12345"
+                        ,"name" : "update"
+                        ,"href" : "http://account-atk.herokuapp.com/12345"
+                        ,"rel" : "item edit-form account"
+                        ,"tags" : "account list item"
+                        ,"title" : "Edit"
+                    }
+                    ,
+                    {
+                        "id" : "status_12345"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/12345"
+                        ,"rel" : "item account status"
+                        ,"tags" : "account item list status"
+                        ,"title" : "Status"
+                    }
+                    ,
+                    {
+                        "id" : "limits_12345"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/12345"
+                        ,"rel" : "item account limits"
+                        ,"tags" : "account item list limits"
+                        ,"title" : "Status"
+                    }
+                ]
+                ,"id" : "12345"
+                ,"companyId" : "23456"
+                ,"division" : "Military"
+                ,"spendingLimit" : "10000"
+                ,"discountPercentage" : "10"
+                ,"status" : "active"
+                ,"dateCreated" : "2020-03-09T04:17:17.061Z"
+                ,"dateUpdated" : "2020-03-09T04:17:17.061Z"
+            }
+              ,
+              {
+                "links" : 
+                [
+                    {
+                        "id" : "read_1c0x0mzp83t"
+                        ,"name" : "read"
+                        ,"href" : "http://account-atk.herokuapp.com/1c0x0mzp83t"
+                        ,"rel" : "item account read"
+                        ,"title" : "Read"
+                    }
+                    ,
+                    {
+                        "id" : "update_1c0x0mzp83t"
+                        ,"name" : "update"
+                        ,"href" : "http://account-atk.herokuapp.com/1c0x0mzp83t"
+                        ,"rel" : "item edit-form account"
+                        ,"tags" : "account list item"
+                        ,"title" : "Edit"
+                    }
+                    ,
+                    {
+                        "id" : "status_1c0x0mzp83t"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/1c0x0mzp83t"
+                        ,"rel" : "item account status"
+                        ,"tags" : "account item list status"
+                        ,"title" : "Status"
+                    }
+                    ,
+                    {
+                        "id" : "limits_1c0x0mzp83t"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/1c0x0mzp83t"
+                        ,"rel" : "item account limits"
+                        ,"tags" : "account item list limits"
+                        ,"title" : "Status"
+                    }
+                ]
+                ,"id" : "1c0x0mzp83t"
+                ,"division" : "DryGoods"
+                ,"companyId" : "1or2ab05imf"
+                ,"spendingLimit" : ""
+                ,"discountPercentage" : ""
+                ,"status" : "active"
+                ,"dateCreated" : "2019-02-25T08:12:00.579Z"
+                ,"dateUpdated" : "2019-02-25T08:12:00.579Z"
+            }
+              ,
+              {
+                "links" : 
+                [
+                    {
+                        "id" : "read_1yswvm4n0q"
+                        ,"name" : "read"
+                        ,"href" : "http://account-atk.herokuapp.com/1yswvm4n0q"
+                        ,"rel" : "item account read"
+                        ,"title" : "Read"
+                    }
+                    ,
+                    {
+                        "id" : "update_1yswvm4n0q"
+                        ,"name" : "update"
+                        ,"href" : "http://account-atk.herokuapp.com/1yswvm4n0q"
+                        ,"rel" : "item edit-form account"
+                        ,"tags" : "account list item"
+                        ,"title" : "Edit"
+                    }
+                    ,
+                    {
+                        "id" : "status_1yswvm4n0q"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/1yswvm4n0q"
+                        ,"rel" : "item account status"
+                        ,"tags" : "account item list status"
+                        ,"title" : "Status"
+                    }
+                    ,
+                    {
+                        "id" : "limits_1yswvm4n0q"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/1yswvm4n0q"
+                        ,"rel" : "item account limits"
+                        ,"tags" : "account item list limits"
+                        ,"title" : "Status"
+                    }
+                ]
+                ,"id" : "1yswvm4n0q"
+                ,"companyId" : "21r1aeuj87e"
+                ,"division" : "DryGoods"
+                ,"spendingLimit" : "15000"
+                ,"discountPercentage" : "15"
+                ,"status" : "active"
+                ,"dateCreated" : "2019-02-25T08:13:16.099Z"
+                ,"dateUpdated" : "2020-01-20T02:24:34.476Z"
+            }
+              ,
+              {
+                "links" : 
+                [
+                    {
+                        "id" : "read_2k8ue502vuk"
+                        ,"name" : "read"
+                        ,"href" : "http://account-atk.herokuapp.com/2k8ue502vuk"
+                        ,"rel" : "item account read"
+                        ,"title" : "Read"
+                    }
+                    ,
+                    {
+                        "id" : "update_2k8ue502vuk"
+                        ,"name" : "update"
+                        ,"href" : "http://account-atk.herokuapp.com/2k8ue502vuk"
+                        ,"rel" : "item edit-form account"
+                        ,"tags" : "account list item"
+                        ,"title" : "Edit"
+                    }
+                    ,
+                    {
+                        "id" : "status_2k8ue502vuk"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/2k8ue502vuk"
+                        ,"rel" : "item account status"
+                        ,"tags" : "account item list status"
+                        ,"title" : "Status"
+                    }
+                    ,
+                    {
+                        "id" : "limits_2k8ue502vuk"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/2k8ue502vuk"
+                        ,"rel" : "item account limits"
+                        ,"tags" : "account item list limits"
+                        ,"title" : "Status"
+                    }
+                ]
+                ,"id" : "2k8ue502vuk"
+                ,"companyId" : "1or2ab05imf"
+                ,"division" : "DryGoods"
+                ,"spendingLimit" : "10000"
+                ,"discountPercentage" : "10"
+                ,"status" : "active"
+                ,"dateCreated" : "2020-01-20T00:56:00.478Z"
+                ,"dateUpdated" : "2020-01-20T00:56:00.478Z"
+            }
+              ,
+              {
+                "links" : 
+                [
+                    {
+                        "id" : "read_3kzbw0ze078"
+                        ,"name" : "read"
+                        ,"href" : "http://account-atk.herokuapp.com/3kzbw0ze078"
+                        ,"rel" : "item account read"
+                        ,"title" : "Read"
+                    }
+                    ,
+                    {
+                        "id" : "update_3kzbw0ze078"
+                        ,"name" : "update"
+                        ,"href" : "http://account-atk.herokuapp.com/3kzbw0ze078"
+                        ,"rel" : "item edit-form account"
+                        ,"tags" : "account list item"
+                        ,"title" : "Edit"
+                    }
+                    ,
+                    {
+                        "id" : "status_3kzbw0ze078"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/3kzbw0ze078"
+                        ,"rel" : "item account status"
+                        ,"tags" : "account item list status"
+                        ,"title" : "Status"
+                    }
+                    ,
+                    {
+                        "id" : "limits_3kzbw0ze078"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/3kzbw0ze078"
+                        ,"rel" : "item account limits"
+                        ,"tags" : "account item list limits"
+                        ,"title" : "Status"
+                    }
+                ]
+                ,"id" : "3kzbw0ze078"
+                ,"division" : "Military"
+                ,"companyId" : "21r1aeuj87e"
+                ,"spendingLimit" : ""
+                ,"discountPercentage" : ""
+                ,"status" : "active"
+                ,"dateCreated" : "2019-02-25T08:12:51.530Z"
+                ,"dateUpdated" : "2019-02-25T08:12:51.530Z"
+            }
+              ,
+              {
+                "links" : 
+                [
+                    {
+                        "id" : "read_6x7hpmtxbss"
+                        ,"name" : "read"
+                        ,"href" : "http://account-atk.herokuapp.com/6x7hpmtxbss"
+                        ,"rel" : "item account read"
+                        ,"title" : "Read"
+                    }
+                    ,
+                    {
+                        "id" : "update_6x7hpmtxbss"
+                        ,"name" : "update"
+                        ,"href" : "http://account-atk.herokuapp.com/6x7hpmtxbss"
+                        ,"rel" : "item edit-form account"
+                        ,"tags" : "account list item"
+                        ,"title" : "Edit"
+                    }
+                    ,
+                    {
+                        "id" : "status_6x7hpmtxbss"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/6x7hpmtxbss"
+                        ,"rel" : "item account status"
+                        ,"tags" : "account item list status"
+                        ,"title" : "Status"
+                    }
+                    ,
+                    {
+                        "id" : "limits_6x7hpmtxbss"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/6x7hpmtxbss"
+                        ,"rel" : "item account limits"
+                        ,"tags" : "account item list limits"
+                        ,"title" : "Status"
+                    }
+                ]
+                ,"id" : "6x7hpmtxbss"
+                ,"division" : "Pharmacy"
+                ,"companyId" : "1or2ab05imf"
+                ,"spendingLimit" : ""
+                ,"discountPercentage" : ""
+                ,"status" : "active"
+                ,"dateCreated" : "2019-02-25T08:12:36.747Z"
+                ,"dateUpdated" : "2019-02-25T08:12:36.747Z"
+            }
+              ,
+              {
+                "links" : 
+                [
+                    {
+                        "id" : "read_bm4lr8c9nds"
+                        ,"name" : "read"
+                        ,"href" : "http://account-atk.herokuapp.com/bm4lr8c9nds"
+                        ,"rel" : "item account read"
+                        ,"title" : "Read"
+                    }
+                    ,
+                    {
+                        "id" : "update_bm4lr8c9nds"
+                        ,"name" : "update"
+                        ,"href" : "http://account-atk.herokuapp.com/bm4lr8c9nds"
+                        ,"rel" : "item edit-form account"
+                        ,"tags" : "account list item"
+                        ,"title" : "Edit"
+                    }
+                    ,
+                    {
+                        "id" : "status_bm4lr8c9nds"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/bm4lr8c9nds"
+                        ,"rel" : "item account status"
+                        ,"tags" : "account item list status"
+                        ,"title" : "Status"
+                    }
+                    ,
+                    {
+                        "id" : "limits_bm4lr8c9nds"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/bm4lr8c9nds"
+                        ,"rel" : "item account limits"
+                        ,"tags" : "account item list limits"
+                        ,"title" : "Status"
+                    }
+                ]
+                ,"id" : "bm4lr8c9nds"
+                ,"companyId" : "1or2ab05imf"
+                ,"division" : "DryGoods"
+                ,"spendingLimit" : "10000"
+                ,"discountPercentage" : "10"
+                ,"status" : "active"
+                ,"dateCreated" : "2020-01-20T00:57:00.045Z"
+                ,"dateUpdated" : "2020-01-20T00:57:00.045Z"
+            }
+              ,
+              {
+                "links" : 
+                [
+                    {
+                        "id" : "read_q1w2e3r4"
+                        ,"name" : "read"
+                        ,"href" : "http://account-atk.herokuapp.com/q1w2e3r4"
+                        ,"rel" : "item account read"
+                        ,"title" : "Read"
+                    }
+                    ,
+                    {
+                        "id" : "update_q1w2e3r4"
+                        ,"name" : "update"
+                        ,"href" : "http://account-atk.herokuapp.com/q1w2e3r4"
+                        ,"rel" : "item edit-form account"
+                        ,"tags" : "account list item"
+                        ,"title" : "Edit"
+                    }
+                    ,
+                    {
+                        "id" : "status_q1w2e3r4"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/q1w2e3r4"
+                        ,"rel" : "item account status"
+                        ,"tags" : "account item list status"
+                        ,"title" : "Status"
+                    }
+                    ,
+                    {
+                        "id" : "limits_q1w2e3r4"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/q1w2e3r4"
+                        ,"rel" : "item account limits"
+                        ,"tags" : "account item list limits"
+                        ,"title" : "Status"
+                    }
+                ]
+                ,"id" : "q1w2e3r4"
+                ,"companyId" : "w2e3r4t5"
+                ,"division" : "Military"
+                ,"spendingLimit" : "10000"
+                ,"discountPercentage" : "10"
+                ,"status" : "active"
+                ,"dateCreated" : "2020-02-29T02:34:21.120Z"
+                ,"dateUpdated" : "2020-03-09T04:17:16.909Z"
+            }
+          ]
+        }
+     }
+  

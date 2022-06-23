@@ -1,0 +1,111 @@
+    { 
+      "account" : 
+      { 
+        "metadata" : 
+        [
+            {
+                "name" : "title"
+                ,"value" : "BigCo Account Records"
+              }
+            ,
+            {
+                "name" : "author"
+                ,"value" : "Mike Amundsen"
+              }
+            ,
+            {
+                "name" : "release"
+                ,"value" : "1.0.0"
+              }
+          ],
+          "links" : 
+          [
+              {
+                  "id" : "self"
+                  ,"name" : "self"
+                  ,"href" : "http://account-atk.herokuapp.com/1c0x0mzp83t"
+                  ,"rel" : "self colllection account"
+                  ,"tags" : "collection account self home list item"
+                  ,"title" : "Self"
+              }
+              ,
+              {
+                  "id" : "home"
+                  ,"name" : "home"
+                  ,"href" : "http://account-atk.herokuapp.com/"
+                  ,"rel" : "collection account"
+                  ,"tags" : "collection account home list item"
+                  ,"title" : "Home"
+              }
+              ,
+              {
+                  "id" : "list"
+                  ,"name" : "list"
+                  ,"href" : "http://account-atk.herokuapp.com/list/"
+                  ,"rel" : "collection account"
+                  ,"tags" : "collection account home list item"
+                  ,"title" : "List"
+              }
+              ,
+              {
+                  "id" : "filter"
+                  ,"name" : "filter"
+                  ,"href" : "http://account-atk.herokuapp.com/filter/"
+                  ,"rel" : "collection account filter"
+                  ,"tags" : "collection account filter list item"
+                  ,"title" : "Search"
+              }
+          ],
+          "items" : 
+          [
+              {
+                "links" : 
+                [
+                    {
+                        "id" : "read_1c0x0mzp83t"
+                        ,"name" : "read"
+                        ,"href" : "http://account-atk.herokuapp.com/1c0x0mzp83t"
+                        ,"rel" : "item account read"
+                        ,"title" : "Read"
+                    }
+                    ,
+                    {
+                        "id" : "update_1c0x0mzp83t"
+                        ,"name" : "update"
+                        ,"href" : "http://account-atk.herokuapp.com/1c0x0mzp83t"
+                        ,"rel" : "item edit-form account"
+                        ,"tags" : "account list item"
+                        ,"title" : "Edit"
+                    }
+                    ,
+                    {
+                        "id" : "status_1c0x0mzp83t"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/1c0x0mzp83t"
+                        ,"rel" : "item account status"
+                        ,"tags" : "account item list status"
+                        ,"title" : "Status"
+                    }
+                    ,
+                    {
+                        "id" : "limits_1c0x0mzp83t"
+                        ,"name" : "status"
+                        ,"href" : "http://account-atk.herokuapp.com/status/1c0x0mzp83t"
+                        ,"rel" : "item account limits"
+                        ,"tags" : "account item list limits"
+                        ,"title" : "Status"
+                    }
+                ]
+                ,"id" : "1c0x0mzp83t"
+                ,"division" : "DryGoods"
+                ,"companyId" : "1or2ab05imf"
+                ,"spendingLimit" : ""
+                ,"discountPercentage" : ""
+                ,"status" : "active"
+                ,"dateCreated" : "2019-02-25T08:12:00.579Z"
+                ,"dateUpdated" : "2019-02-25T08:12:00.579Z"
+            }
+          ]
+        }
+     }
+  

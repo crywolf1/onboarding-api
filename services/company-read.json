@@ -1,0 +1,223 @@
+    { 
+      "company" : 
+      { 
+        "metadata" : 
+        [
+            {
+                "name" : "title"
+                ,"value" : "BigCo Company Records"
+              }
+            ,
+            {
+                "name" : "author"
+                ,"value" : "Mike Amundsen"
+              }
+            ,
+            {
+                "name" : "release"
+                ,"value" : "1.0.0"
+              }
+          ],
+          "links" : 
+          [
+              {
+                  "id" : "self"
+                  ,"name" : "self"
+                  ,"href" : "http://company-atk.herokuapp.com/258ie4t68jv"
+                  ,"rel" : "self colllection company"
+                  ,"tags" : "collection company self home list item"
+                  ,"title" : "Self"
+                  ,"method" : "GET"
+                  ,"properties" : 
+              [
+	      ]	      
+              }
+              ,
+              {
+                  "id" : "home"
+                  ,"name" : "home"
+                  ,"href" : "http://company-atk.herokuapp.com/"
+                  ,"rel" : "collection company"
+                  ,"tags" : "collection company home list item"
+                  ,"title" : "Home"
+                  ,"method" : "GET"
+                  ,"properties" : 
+              [
+	      ]	      
+              }
+              ,
+              {
+                  "id" : "list"
+                  ,"name" : "list"
+                  ,"href" : "http://company-atk.herokuapp.com/list/"
+                  ,"rel" : "collection company"
+                  ,"tags" : "collection company home list item"
+                  ,"title" : "List"
+                  ,"method" : "GET"
+                  ,"properties" : 
+              [
+	      ]	      
+              }
+              ,
+              {
+                  "id" : "filter"
+                  ,"name" : "filter"
+                  ,"href" : "http://company-atk.herokuapp.com/filter/"
+                  ,"rel" : "collection company filter"
+                  ,"tags" : "collection company filter list item"
+                  ,"title" : "Search"
+                  ,"method" : "GET"
+                  ,"properties" : 
+              [
+		{
+		    "name" : "status"
+		    ,"value" : ""
+		}
+                ,
+		{
+		    "name" : "companyName"
+		    ,"value" : ""
+		}
+                ,
+		{
+		    "name" : "stateProvince"
+		    ,"value" : ""
+		}
+                ,
+		{
+		    "name" : "country"
+		    ,"value" : ""
+		}
+	      ]	      
+              }
+          ],
+          "items" : 
+          [
+              {
+                "links" : 
+                [
+                    {
+                        "id" : "read_258ie4t68jv"
+                        ,"name" : "read"
+                        ,"href" : "http://company-atk.herokuapp.com/258ie4t68jv"
+                        ,"rel" : "item company read"
+                        ,"title" : "Read"
+                        ,"method" : "GET"
+                        ,"properties" : 
+                    [
+              ]	      
+                    }
+                    ,
+                    {
+                        "id" : "update_258ie4t68jv"
+                        ,"name" : "update"
+                        ,"href" : "http://company-atk.herokuapp.com/258ie4t68jv"
+                        ,"rel" : "item edit-form company"
+                        ,"tags" : "company list item"
+                        ,"title" : "Edit"
+                        ,"method" : "PUT"
+                        ,"properties" : 
+                    [
+          {
+              "name" : "id"
+              ,"value" : "258ie4t68jv"
+          }
+                      ,
+          {
+              "name" : "companyName"
+              ,"value" : "Ullrich and Sons"
+          }
+                      ,
+          {
+              "name" : "email"
+              ,"value" : "Pauline.Nikolaus20@hotmail.com"
+          }
+                      ,
+          {
+              "name" : "status"
+              ,"value" : "active"
+          }
+                      ,
+          {
+              "name" : "streetAddress"
+              ,"value" : "2885 Imelda Junction"
+          }
+                      ,
+          {
+              "name" : "city"
+              ,"value" : "Stephaniefort"
+          }
+                      ,
+          {
+              "name" : "stateProvince"
+              ,"value" : "SMTP"
+          }
+                      ,
+          {
+              "name" : "postalCode"
+              ,"value" : "12345-67890"
+          }
+                      ,
+          {
+              "name" : "country"
+              ,"value" : "PR"
+          }
+                      ,
+          {
+              "name" : "telephone"
+              ,"value" : "662-529-8600"
+          }
+                      ,
+          {
+              "name" : "email"
+              ,"value" : "Pauline.Nikolaus20@hotmail.com"
+          }
+              ]	      
+                    }
+                    ,
+                    {
+                        "id" : "status_258ie4t68jv"
+                        ,"name" : "status"
+                        ,"href" : "http://company-atk.herokuapp.com/status/258ie4t68jv"
+                        ,"rel" : "item company status"
+                        ,"tags" : "company item list status"
+                        ,"title" : "Status"
+                        ,"method" : "PATCH"
+                        ,"properties" : 
+                    [
+          {
+              "name" : "status"
+              ,"value" : "active"
+          }
+              ]	      
+                    }
+                    ,
+                    {
+                        "id" : "remove_258ie4t68jv"
+                        ,"name" : "remove"
+                        ,"href" : "http://company-atk.herokuapp.com/258ie4t68jv"
+                        ,"rel" : "item company remove"
+                        ,"title" : "Remove"
+                        ,"method" : "DELETE"
+                        ,"properties" : 
+                    [
+              ]	      
+                    }
+                ]
+                ,"id" : "258ie4t68jv"
+                ,"companyName" : "Ullrich and Sons"
+                ,"streetAddress" : "2885 Imelda Junction"
+                ,"city" : "Stephaniefort"
+                ,"stateProvince" : "SMTP"
+                ,"postalCode" : "12345-67890"
+                ,"country" : "PR"
+                ,"telephone" : "662-529-8600"
+                ,"email" : "Pauline.Nikolaus20@hotmail.com"
+                ,"status" : "active"
+                ,"dateCreated" : "2020-02-08T05:34:02.435Z"
+                ,"dateUpdated" : "2020-02-08T05:34:02.757Z"
+            }
+          ]
+        }
+     }
+  
