@@ -1,0 +1,37 @@
+<!--
+ ! Excerpted from "Design and Build Great Web APIs",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material,
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose.
+ ! Visit http://www.pragmaticprogrammer.com/titles/maapis for more book information.
+-->
+<alps version="1.0">
+  <title>Credit Check Service for BigCo, Inc.</title>
+  <doc>
+    Public API profile for BigCo's Credit Check service.
+  </doc>
+
+  <!-- properties -->
+  <description id="ratingId" type="semantic" 
+    ref="https://schema.org/identifier"
+    text="The unique identifier for the rating record." />
+  <!-- add companyName, dateRequested, and ratingValue propoerties here -->
+    
+  <!-- containers -->
+  <descriptor id="ratingItem" type="semantic">
+    <descriptor href="#ratingId" />
+    <!-- add references to all other properties here -->
+  </descriptor>  
+  
+  <!-- actions -->
+  <descriptor id="home" type="safe"
+    text="root resource; points to other resources/actions in the service" />
+  <descriptor id="creditCheckHistory" type="safe" rtn="ratingItem"
+    text="Returns a list of past credit rating records">
+    <descriptor href="#companyName" />
+    <descriptor href="#ratingId"/>
+  </descriptor>
+  <!-- add descriptors for the creditCheckForm and creditCheckItem actions -->
+  
+</alps>

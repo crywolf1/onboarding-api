@@ -1,0 +1,39 @@
+{
+  "alps" : {
+    "version" : "1.0",
+    "title" : "Credit Check Service for BigCo, Inc.",
+    "doc" : {
+      "text" : "Public API profile for BigCo's Credit Check service."
+    },
+    "descriptors" : [
+      { 
+        "id" : "ratingId", "type" : "semantic", "tags" : "property",
+        "ref" : "https://schema.org/identifier",
+        "text" : "The unique identifier for the rating record."
+      },
+      {"comment" : "add companyName, dateRequested, and ratingValue here."}
+      
+      {
+        "id" : "ratingItem", "type" : "semantic", "tags" : "container",
+        "descriptors" : [
+          {"href" : "#ratingId"},
+          {"comment" : "add companyName, dateRequested, and ratingValue."}
+        ]
+      },
+
+      {
+        "id" : "home", "type" : "safe", "tags" : "actions",
+        "text" : "Root resource; Points to other actions in the service."
+      },
+      { 
+        "id" : "creditCheckHistory", "type" : "safe", 
+        "tags" : "actions", "rtn" : "ratingItem",
+        "text" : "Returns a list of past credit rating records.",
+        "descriptors" : [
+          {"href" : "#companyName"}
+        ]
+      },
+      {"comment" : "add creditCheckForm and creditCheckItem actions here."}
+    ]
+  }
+}
